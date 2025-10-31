@@ -1,7 +1,7 @@
 # **Oop2_Order_Kiosk_demo**
 
 <p align="center">
-  <img width="300" src="docs/assets/img/logo.png">
+  <img width="300" src="resources/kiosk_Icon.png">
 </p>
 <h1 align="center">Order Kiosk</h1>
 
