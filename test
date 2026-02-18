@@ -1,0 +1,11 @@
+function RemoveGroupMember() {
+    const membersSelect = document.getElementById("members"); // get the select list
+    const selectedIndex = membersSelect.selectedIndex;        // get selected option
+
+    if (selectedIndex >= 0) { // ensure something is selected
+        membersSelect.remove(selectedIndex); // remove the selected member
+        updateGroupInfo(); // recalculate group size and discounted rate
+    } else {
+        alert("Please select a member to delete.");
+    }
+}
